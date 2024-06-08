@@ -12,28 +12,39 @@
 
 
 <!-- Navbar -->
-<nav class="container-fluid navbar d-flex justify-content-between align-items-center p-5 me-5 shadow-lg">
+<nav class="container-fluid navbar d-flex justify-content-between align-items-center p-5 me-5 shadow-lg navbar-expand-lg">
     <div class="logo">
 
-    <a href="#home" class="nav-link fs-1 fw-bold fst-italic">Rafi'Portofolio</a>
+    <a href="#home" class="nav-link fs-1 fw-bold fst-italic logo">Rafi'Portofolio</a>
     </div>
-  
-    <div class="nav " >
-        <ul class="nav-item d-flex fs-5 ">
-            <li><a class="link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#home">Home</a></li>
-            <li><a class="link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#about">About</a></li>
-            <li><a class="link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#skill">Skill</a></li>
-            <li><a class="link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#lastproject">Last Project</a></li>
-            <li><a class="link-light link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#contact">Contact</a></li>
+
+
+    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+    <div class="nav offcanvas-body d-flex flex-column flex-lg-row" >
+        <ul class="nav-item fs-5 ">
+            <li><a class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#home">Home</a></li>
+            <li><a class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#about">About</a></li>
+            <li><a class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#skill">Skill</a></li>
+            <li><a class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#lastproject">Last Project</a></li>
+            <li><a class="link-secondary link-underline link-underline-opacity-0 link-underline-opacity-75-hover link-offset-3-hover me-lg-4" href="#contact">Contact</a></li>
         </ul>
 
 
          
-
+       <button class="btn btn-primary "><a class="link-body-emphasis link-underline link-underline-opacity-0" href="">Download CV</a></button>
+      </div>
     </div>
 
-    <button class="btn btn-outline-primary "><a class="link-light link-underline link-underline-opacity-0" href="">Download CV</a></button>
-
+    
 </nav>
 
 
@@ -102,7 +113,7 @@
         <div class="isi-about d-flex justify-content-around align-items-center">
             <div class="teksnya col-5 me-5">
             <h1 class="mb-5">Saya Adalah</h1>
-            <p>Seorang siswa Yang Bersekolah Di Smk Krian 1 jurusan Rekayasa Perangkat Lunak  Hobi saya adalah Belajar Hal Baru Ynag membuat saya tertarik dan Kebetulan Sekarang Saya Sekarang Tertarik Dengan Front end Developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem, molestiae magnam fugit quam esse? At sunt, maiores sint molestias repudiandae consectetur, ipsum exercitationem et dolore explicabo distinctio perspiciatis optio magni repellat eum illum aperiam vitae ab delectus hic enim dolorum! Saepe, iste omnis illo quisquam neque quasi quam odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt at, ullam doloremque neque sed in est numquam ad culpa repellat?</p>
+            <p>Seorang siswa Yang Bersekolah Di Smk Krian 1 jurusan Rekayasa Perangkat Lunak  Hobi saya adalah Belajar Hal Baru Ynag membuat saya tertarik dan Kebetulan Sekarang Saya Sekarang Tertarik Dengan Front end Developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quidem, molestiae magnam fugit quam esse? At sunt, maiores sint molestias repudiandae consectetur, ipsum exercitationem et dolore explicabo distinctio perspiciatis optio magni repellat eum illum aperiam vitae ab delectus hic enim dolorum! Saepe, iste omnis illo quisquam neque quasi quam odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt</p>
 
             </div>
             <img style="width: 350px;" class=" rounded" data-aos="fade-left"  data-aos-duration="1500" src="img/stephan-louis-MxrFbYxWdy4-unsplash.jpg" alt="">
@@ -162,26 +173,29 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-4">
-                <div class="card shadow-lg me-5" data-aos="zoom-in" data-aos-duration="1300" >
-                    <img src="img/4befc233-ea63-4643-83cf-be0e726b9cd1-cover.png" class="card-img-top" alt="..." style="height: 300px;">
-                    <div class="card-body bg-primary">
+            <div class="col-12 col-lg-4">
+                <div class="card shadow-lg me-5 mb-3" data-aos="zoom-in" data-aos-duration="1300" >
+                    <img src="img/11103355.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">AI Project With Python</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
             </div>
-            <div class="col-4">
-                <div class="card shadow-lg me-5" data-aos="zoom-in" data-aos-duration="1990">
-                    <img src="img/d95E4CZtx8JRDFAcl8zPnsgJWgUBDj6DbnOPZtuK.jpg" class="card-img-top" alt="..." style="height: 300px;">
-                    <div class="card-body bg-primary">
+            <div class="col-12 col-lg-4">
+                <div class="card shadow-lg me-5 mb-3" data-aos="zoom-in" data-aos-duration="1990">
+                    <img src="img/256x256bb.jpg" class="card-img-top" alt="..." >
+                    <div class="card-body  ">
+                        <h5 class="card-title">Web Development</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
             </div>
-            <div class="col-4">
-                <div class="card shadow-lg me-5" data-aos="zoom-in" data-aos-duration="1350">
-                    <img src="img/website-company-profile-adalah.jpg" class="card-img-top" alt="..." style="height: 300px;">
-                    <div class="card-body bg-primary">
+            <div class="col-12 col-lg-4">
+                <div class="card shadow-lg me-5 mb-3" data-aos="zoom-in" data-aos-duration="1350">
+                    <img src="img/communityIcon_mo9ddhwkfnwc1.png" class="card-img-top" alt="..." >
+                    <div class="card-body ">
+                        <h5 class="card-title">Android Developer</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
